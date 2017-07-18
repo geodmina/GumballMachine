@@ -1,0 +1,12 @@
+<project name="user">
+ <exec executable="phpunit" failonerror="true">
+  <arg line=" UnitTest GumballMachineTest.php" />
+ </exec>
+ <copy file="GumballMachine.php" tofile="builds/GumballMachine.php"/>
+</project>
+
+
+
+
+
+
